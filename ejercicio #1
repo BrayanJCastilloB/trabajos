@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		System.out.println("Digite el estrato:");
+		float estrato= scnr.nextInt();
+		System.out.println("Digite la cantidad de hombres:");
+	 	float hombres= scnr.nextInt();
+	 	System.out.println("Digite la cantidad de mujeres:");
+	 	float mujeres= scnr.nextInt();
+	 	
+	 	float suma=hombres+mujeres;
+	 	
+	 	 float promh= (hombres*100)/suma;
+	 	
+	 	 float promm= (mujeres*100)/suma;
+	 	 
+	 	 System.out.println("el estrato es: "+estrato);
+	 	 System.out.println("el porcentaje de hombre es: "+promh+"%");
+	 	 System.out.println("el porcentaje de mujeres es: "+promm+"%");
+	}
+  System.out.println("grupo: joel quintero, andres campbell, brayan castillo");
+}
